@@ -1,0 +1,13 @@
+{
+  "name": "Dolores Beauty Salon",
+  "description": "Premium luxury beauty salon in New York City specializing in professional hair care, blowouts, and exceptional beauty services.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "Booking System",
+    "Service Showcase",
+    "Client Testimonials",
+    "Interactive Gallery"
+  ]
+}
