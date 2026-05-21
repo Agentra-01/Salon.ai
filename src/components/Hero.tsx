@@ -45,20 +45,7 @@ export default function Hero() {
             Professional styling, blowouts, and boutique beauty services delivered with exceptional customer care in the heart of East Village.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <button
-              onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
-              className="w-full sm:w-auto px-10 py-5 bg-brand-blush text-brand-black text-sm uppercase tracking-widest font-semibold rounded-full hover:bg-white transition-all shadow-xl hover:shadow-brand-blush/20 transform hover:-translate-y-1"
-            >
-              Book Appointment
-            </button>
-            <button
-              onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              className="w-full sm:w-auto px-10 py-5 border border-white/30 text-white text-sm uppercase tracking-widest font-medium rounded-full hover:bg-white/10 transition-all backdrop-blur-sm"
-            >
-              View Services
-            </button>
-          </div>
+
         </motion.div>
 
         <div className="hidden lg:block relative">
